@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="467px" height="200px" viewBox="0 0 467 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>spp</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SPPLogo" transform="translate(-87.000000, -64.000000)">
+            <g id="Logo" transform="translate(164.000000, 170.500000) rotate(-30.000000) translate(-164.000000, -170.500000) translate(51.000000, 40.000000)" stroke="#000000" stroke-width="0.5">
+                <path d="M100.672105,174.368669 L100.672105,259.788196 L149.989092,259.788196 L100.672105,174.368669 Z" id="FrillBottomRight" fill="#000080" transform="translate(125.422105, 216.736926) rotate(-240.000000) translate(-125.422105, -216.736926) "></path>
+                <path d="M25.6721051,130.384386 L25.6721051,215.803913 L74.9890924,130.384386 L25.6721051,130.384386 Z" id="FrillBottomLeft" fill="#0000BF" transform="translate(50.422105, 173.435656) rotate(-240.000000) translate(-50.422105, -173.435656) "></path>
+                <path d="M44.0915064,76.3493044 L19.4327649,119.059497 L118.237486,119.157506 L44.0915064,76.3493044 Z" id="FrillLeftBottom" fill="#9999FF" transform="translate(69.086053, 97.708116) rotate(-240.000000) translate(-69.086053, -97.708116) "></path>
+                <path d="M156.298329,54.3927765 L82.3216459,11.6823187 L131.596995,97.1767413 L156.298329,54.3927765 Z" id="FrillLeftTop" fill="#CCCCFF" transform="translate(119.139835, 54.338532) rotate(-240.000000) translate(-119.139835, -54.338532) "></path>
+                <path d="M175.672105,129.884386 L224.989092,129.884386 L175.672105,44.4648581 L175.672105,129.884386 Z" id="FrillRightTop" fill="#008CFF"></path>
+                <path d="M175.672105,130.384386 L175.672105,216.000789 L224.989588,130.384386 L175.672105,130.384386 Z" id="FrillRightBottom" fill="#000080"></path>
+                <path d="M100.672105,87.2661283 L100.672105,173.002643 L174.922105,130.134386 L100.672105,87.2661283 Z" id="EquilateralCentre" fill="#FFFFFF"></path>
+                <path d="M100.139997,87.2475901 L25.7506993,130.233161 L100.171944,173.003542 L100.139997,87.2475901 Z" id="EquilateralLeft" fill="#008CFF"></path>
+                <path d="M175.172105,130.567398 L100.922105,173.435656 L175.172105,216.303913 L175.172105,130.567398 Z" id="EquilateralRight" fill="#0000BF"></path>
+                <path d="M100.898024,86.8006745 L175.172105,129.70128 L175.172105,43.9646253 L100.898024,86.8006745 Z" id="EquilateralTop" fill="#9999FF"></path>
+            </g>
+            <g id="Text" transform="translate(273.747423, 63.884386)" fill="#000080" font-family="Avenir-Book, Avenir" font-weight="normal">
+                <text id="SPP" font-size="160" line-spacing="160">
+                    <tspan x="4.25257739" y="160.115614">SPP</tspan>
+                    <tspan x="303.612577" y="179.516005" font-size="20"></tspan>
+                </text>
+                <text id="Structure-Property-R" font-size="20">
+                    <tspan x="2.72" y="180">Structure Property Relationship </tspan>
+                </text>
+                <text id="Reasearch-Group" font-size="8">
+                    <tspan x="204.248" y="198">REASEARCH GROUP</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

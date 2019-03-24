@@ -1,0 +1,32 @@
+{
+  "name": "spp-new",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://spp-iit-kgp.s3-website.ap-south-1.amazonaws.com",
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "lodash": "^4.17.11",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "styled-components": "^4.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "prepublish": "npm run build",
+    "deploy": "aws s3 sync build/ s3://spp-iit-kgp --profile nascarsayan",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
