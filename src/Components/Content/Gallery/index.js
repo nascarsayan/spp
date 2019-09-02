@@ -25,6 +25,52 @@ const labImages = [
   { file: 'mounting.jpeg' },
 ]
 
+const labImages2 = [
+  { file: 'gate.jpg' },
+  { file: 'polishing.jpg' },
+  { file: 'room1pano.jpg' },
+  { file: 'scratchsouvik.jpg' },
+  { file: 'optical.jpg' },
+  { file: 'grinding.jpg' },
+  { file: 'polishbiswa.jpg' },
+  { file: 'hardness.jpg' },
+  { file: 'group2.jpg' },
+  { file: 'hardnesssouvik.jpg' },
+  { file: 'cutting.jpg' },
+  { file: 'group1.jpg' },
+  { file: 'room3pano.jpg' },
+  { file: 'souvikposter.jpg' },
+  { file: 'furnace.jpg' },
+  { file: 'souvikposter2.jpg' },
+  { file: 'scratch.jpg' },
+  { file: 'room2pano.jpg' },
+  { file: 'fume.jpg' },
+  { file: 'mounting.jpg' },
+]
+
+const labImagesSvg = [
+  { file: 'gate.svg' },
+  { file: 'polishing.svg' },
+  { file: 'room1pano.svg' },
+  { file: 'scratchsouvik.svg' },
+  { file: 'optical.svg' },
+  { file: 'grinding.svg' },
+  { file: 'polishbiswa.svg' },
+  { file: 'hardness.svg' },
+  { file: 'group2.svg' },
+  { file: 'hardnesssouvik.svg' },
+  { file: 'cutting.svg' },
+  { file: 'group1.svg' },
+  { file: 'room3pano.svg' },
+  { file: 'souvikposter.svg' },
+  { file: 'furnace.svg' },
+  { file: 'souvikposter2.svg' },
+  { file: 'scratch.svg' },
+  { file: 'room2pano.svg' },
+  { file: 'fume.svg' },
+  { file: 'mounting.svg' },
+]
+
 const expImages = [
   { file: '01.jpg' },
   { file: '02.jpg' },
@@ -45,24 +91,24 @@ class Gallery extends Component {
     const lab = 'lab'
     return (
       <_Gallery>
-        <Collage flist={labImages} rootFol={'lab'} title={'Laboratory Tour'}/>
-        <Collage flist={expImages} rootFol={'exp'} title={'Experiment Shots'}/>
+        <Collage flist={labImages2} rootFol={'lab'} title={'Laboratory Tour'} />
+        <Collage flist={expImages} rootFol={'exp'} title={'Experiment Shots'} />
       </_Gallery>
-    //   <_Gallery2>
-    //   {labImages.map((el, idx) => {
-    //     let name = el.file.replace(/\..+$/, '')
-    //     return (
-    //       <div key={`${idx}`} className={name}>
-    //         <img src={require(`../../../images/lab/${el.file}`)} alt={name}></img>
-    //       </div>
-    //     )
-    //   })}}
-    // </_Gallery2>
+      //   <_Gallery2>
+      //   {labImages.map((el, idx) => {
+      //     let name = el.file.replace(/\..+$/, '')
+      //     return (
+      //       <div key={`${idx}`} className={name}>
+      //         <img src={require(`../../../images/lab/${el.file}`)} alt={name}></img>
+      //       </div>
+      //     )
+      //   })}}
+      // </_Gallery2>
     )
   }
 }
 
-const _Gallery = styled.div.attrs(({theme: {col:c}}) => ({c}))`
+const _Gallery = styled.div.attrs(({ theme: { col: c } }) => ({ c }))`
   display: flex;
   flex-direction: column;
   /* background-color: #8CD8FF; */
@@ -70,7 +116,7 @@ const _Gallery = styled.div.attrs(({theme: {col:c}}) => ({c}))`
   padding: 1.5rem;
 `
 
-const _Collage2 = styled.div.attrs(({theme: {col:c}}) => ({c}))`
+const _Collage2 = styled.div.attrs(({ theme: { col: c } }) => ({ c }))`
   display: grid;
   grid-template-columns: repeat(16, 1fr);
   grid-template-rows: repeat(4, 1fr);
@@ -120,7 +166,7 @@ class Collage extends Component {
   }
 }
 
-const _Collage = styled.div.attrs(({theme: {col:c}}) => ({c}))`
+const _Collage = styled.div.attrs(({ theme: { col: c } }) => ({ c }))`
   display: flex;
   flex-direction: column;
   align-items: center;

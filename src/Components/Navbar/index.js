@@ -3,30 +3,40 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import logo from 'images/logo.svg'
 import { Link } from 'react-router-dom'
+import whatwedo from '../Content/WhatWeDo'
 
 class Navbar extends Component {
   render() {
     return (
       <_Navbar>
         <div className='logo'>
-          <img src={logo} alt='none'/>
+          <img src={logo} alt='none' />
         </div>
         <div className='links'>
-          <div><Link to='/'>Welcome</Link></div>
+          <div><Link to='/'>Home</Link></div>
+          <div><Link to='/whatwedo'>What We Do</Link></div>
           <div><Link to='/who-we-are'>Who We Are</Link></div>
+          <div><Link to='/members'>Members</Link></div>
           {/* <div>What We Do</div> */}
+          <div><Link to='/publications'>Publications</Link></div>
+          <div><Link to='/labtour'>Labtour</Link></div>
+          <div><Link to='/funstaffs'>Funstaffs</Link></div>
+          <div><Link to='/contacts'>Contacts</Link></div>
+
+
           <div><Link to='/gallery'>Gallery</Link></div>
           {/* <div>Get In Touch</div> */}
         </div>
         <div className='user'>
-          <div>John Doe</div>
+          <div>Heeramani Prasad</div>
+          <div>Sayan Naskar</div>
         </div>
       </_Navbar>
     )
   }
 }
 
-const _Navbar = styled.nav.attrs(({theme: {col:c}}) => ({c}))`
+const _Navbar = styled.nav.attrs(({ theme: { col: c } }) => ({ c }))`
   background-color: ${p => p.c.violet.dark()};
   color: ${p => p.c.violet.text()};
   padding: 6vh 3vw;
